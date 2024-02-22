@@ -1,41 +1,45 @@
 :root {
-  --lora: 'Helvetica', serif;
+  --raleway: "Raleway", sans-serif;
+  --cabin: "Helvetica", sans-serif;
+  --charcoal: #2C2C2C;
 }
 
 body {
   padding: 0;
   margin: 0;
+  color: var(--charcoal);
 }
 
 h1 {
-  color: charcoal;
   font-size: 3em;
-  font-family: var(--lora);
+  font-family: var(--raleway);
 }
 
 h2 {
-  color: charcoal;
   font-size: 2.3em;
-  font-family: var(--lora);
+  font-family: var(--raleway);
   font-weight: 500;
 }
 
 h3 {
-  color: charcoal;
   font-size: 1.7em;
-  font-family: var(--lora);
+  font-family: var(--cabin);
   font-weight: 500;
 }
 
 p {
-  color: charcoal;
   font-size: 1.2em;
-  font-family: var(--lora);
+  font-family: var(--cabin);
   font-weight: 400;
 }
 
 a {
   text-decoration: none;
+  color: var(--charcoal);
+}
+
+a img:hover {
+  opacity: 0.5;
 }
 
 .img-100 {
@@ -56,7 +60,7 @@ a {
 
 .col-2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .navbar {
@@ -65,4 +69,15 @@ a {
 
 .navlinks {
 
+}
+
+.align-r {
+  float: right;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
 }
