@@ -1,0 +1,68 @@
+:root {
+  --lora: 'Helvetica', serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: charcoal;
+  font-size: 3em;
+  font-family: var(--lora);
+}
+
+h2 {
+  color: charcoal;
+  font-size: 2.3em;
+  font-family: var(--lora);
+  font-weight: 500;
+}
+
+h3 {
+  color: charcoal;
+  font-size: 1.7em;
+  font-family: var(--lora);
+  font-weight: 500;
+}
+
+p {
+  color: charcoal;
+  font-size: 1.2em;
+  font-family: var(--lora);
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+.p-2 {
+  padding: 2em;
+}
+
+.pic-lg img {
+  width: 100%;
+}
+
+.pic-card {
+  width: 90%;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.navbar {
+  padding: 0 2em;
+}
+
+.navlinks {
+
+}
