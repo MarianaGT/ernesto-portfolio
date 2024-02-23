@@ -42,6 +42,14 @@ a img:hover {
   opacity: 0.5;
 }
 
+.bold {
+  font-weight: 700;
+}
+
+.section-1 img {
+  padding: 15px;
+}
+
 .img-100 {
   width: 100%;
 }
@@ -65,10 +73,6 @@ a img:hover {
 
 .navbar {
   padding: 0 2em;
-}
-
-.navlinks {
-
 }
 
 .align-r {
